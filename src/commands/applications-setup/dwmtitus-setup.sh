@@ -2,7 +2,7 @@
 . ../common-script.sh
 
 makeDWM() {
-    cd "$HOME" && git clone https://github.com/ChrisTitusTech/dwm-titus.git # CD to Home directory to install dwm-titus
+    cd "$HOME" && git clone https://https://github.com/iller7/linutil.git # CD to Home directory to install dwm-titus
     # This path can be changed (e.g. to linux-toolbox directory)
     cd dwm-titus/ # Hardcoded path, maybe not the best.
     $ESCALATION_TOOL make clean install # Run make clean install
